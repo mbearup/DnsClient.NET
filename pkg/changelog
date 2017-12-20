@@ -1,0 +1,5 @@
+PACKAGENAME (VERSION) unstable; urgency=low
+
+  * Initial release.
+
+ -- Azure Linux <azlinux@microsoft.com>  Wed, 20 Dec 2017 11:20:00 +0800

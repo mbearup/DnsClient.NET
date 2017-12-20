@@ -1,0 +1,5 @@
+PACKAGE=dnsclient-dotnet
+VERSION=1.0
+DATAROOT=./data-root
+DSTSDIR=/usr/share/dsts
+SRCDIR?=../../src/DnsClient/bin/Debug/netcoreapp2.0/
