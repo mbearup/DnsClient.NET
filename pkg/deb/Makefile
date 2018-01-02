@@ -24,7 +24,7 @@ $(DOCDIR):
 	mkdir -p $@
 
 $(DOCDIR)/changelog.Debian.gz: ../changelog $(DOCDIR)
-	cat $< | sed 's/PACKAGENAME/$(PACKAGENAME)/g' | sed 's/VERSION/$(PKGVER)/g' | gzip -9n > $@
+	cat $< | sed 's/PACKAGENAME/$(PACKAGE)/g' | sed 's/VERSION/$(PKGVER)/g' | gzip -9n > $@
 
 $(DOCDIR)/copyright: ../copyright $(DOCDIR)
 	cp $< $@
