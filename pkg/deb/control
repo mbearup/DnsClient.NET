@@ -2,7 +2,7 @@ Package: PACKAGENAME
 Version: VERSION
 Section: admin
 Priority: optional
-Depends: dotnet-sdk-2.1.3
+Depends: dotnet-sdk-2.1.4
 Architecture: amd64
 Maintainer: Azure Linux Team <azlinux@microsoft.com>
 Description: DNS Client for .NET framework
